@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.side_bar{
+    width: 15vw;
+    height:100vh;
+    position: fixed;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.home{
+    margin-top: 40px;
+    margin-left: 60px ;
+    list-style: none ;
+    color: white;
+}
+.side_item{
+    margin-top: 20px;
+    margin-left: 60px;
+    list-style: none;
+    color:  rgba(255, 255, 255, 0.598);
+    cursor: pointer;
+}
+.side_item :hover{
+    color: white;
+}
+.install{
+    margin-top: 350px;
+    margin-left: 60px ;
+    color: rgba(255, 255, 255, 0.598) ;
+    list-style: none;
+    cursor: pointer;
+}
+.install :hover{
+    color: white;
+}
+.song_side{
+     margin-left: 15%; 
+    width: 85vw;
+    height: 100%;
+    /* background-color: aqua; */
+    background: linear-gradient(rgb(95, 95, 95),rgb(5, 7, 5));
+    display: flex;
+    flex-direction: column;
+    /* background: rgb(250, 247, 35); */
+    /* color: white;
+    font-size: large;
+    margin-top: 40px;
+    margin-left: 30px; */
+}
+.logo{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.top_bar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.corner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.upgrade{
+    background-color: rgb(47, 39, 39);
+    width:85px;
+    padding: 0.5rem;
+    border-radius: 25px;
+    border-color: white;
+    cursor: pointer;
+}
+.upgrade:hover{
+    color: white;
+}
+.profile{
+    background-color: rgb(47, 39, 39) ;
+    padding: 0.5rem;
+    border-radius: 25px;
+    border-color: white;
+}
+.good{
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.boxe1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+}
+.box{
+    width: 34%;
+    height: 80px;
+    background-color: rgb(26,25,25);
+    align-items: center;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.boxa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+.boxb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 40px;
+}
+.box2{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+.box3{
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 25px; 
+}
+.big_box{
+    display: flex;
+    justify-content: space-around;
+    /* margin-left: 10px; */
+    /* margin-right: 15px;  */
+    margin-top: 20px;
+}
+.b1{
+    height: 276.9px;
+    width: 186.5px;
+    background-color:black;
+}
+footer{
+    background: rgb(156, 91, 91);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+}
+.song{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+}
+.img{
+    padding: 10px;
+}
+.name{
+    color: white;
+    margin-top: 26px;
+}
+.like{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.pip{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.play_bar{
+    margin-left: 0px;
+}
+.queue{
+    margin-top: 30px;
+    margin-left: 430px;
+}
+.connect{
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
